@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soundsofpolaris.timeline.views.SelectableListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+    <View 
+        android:id="@+id/list_item_selector"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/list_item_left_bg"/>
+   	<LinearLayout 
+   	    android:id="@+id/list_item_body"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="horizontal"
+   	    android:background="@drawable/list_item_bg"
+   	    android:padding="10dp">
+   	    <View
+   	        android:id="@+id/group_color"
+   	        android:layout_width="5dp"
+   	        android:background="#ff0000"
+   	        android:layout_height="match_parent"
+   	        android:layout_marginRight="10dp"/>
+   	    <TextView 
+   	        android:id="@+id/group_title"
+   	        style="@style/group_list_title"
+   	     	android:layout_width="match_parent"
+   	     	android:layout_height="wrap_content"/>
+   	</LinearLayout>
+</com.soundsofpolaris.timeline.views.SelectableListItem>

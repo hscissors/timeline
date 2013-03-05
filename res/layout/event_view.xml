@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+   	<TextView
+	    android:id="@+id/event_view_subheader"
+	    style="@style/event_subheader"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+    
+	<ScrollView
+	    android:layout_below="@id/event_view_subheader"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:fadingEdge="none">
+	    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+		    
+		    <TextView
+		        android:id="@+id/event_add_edit_view_group"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="10dp"
+		        style="@style/view_textfield"/>
+		    
+		    <TextView
+		        android:id="@+id/event_add_edit_view_title"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_marginBottom="10dp"
+		        style="@style/view_textfield"/>
+		
+		    <TextView
+		        android:id="@+id/event_add_edit_view_desc"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        style="@style/view_textfield"/>
+		</LinearLayout>
+	</ScrollView>
+	
+	<ImageView 
+       android:id="@+id/event_add_edit_view_subheader_shadow"
+       android:layout_below="@id/event_view_subheader"
+       android:background="@drawable/shadow_bg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+	
+	<ImageView 
+       android:id="@+id/event_add_edit_view_shadow"
+       android:background="@drawable/shadow_bg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</RelativeLayout>

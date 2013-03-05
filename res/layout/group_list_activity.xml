@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/search"
+        	android:id="@+id/group_search"/>
+	    <ListView
+		    android:id="@+id/group_list"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:divider="@null"
+		    android:dividerHeight="0dp"
+		    android:fadingEdge="none">
+		</ListView>
+		
+		<TextView android:id="@+id/group_empty"
+		      android:gravity="center"
+		      android:layout_width="match_parent"
+		      android:layout_height="match_parent"
+		      android:textSize="20sp"
+		      android:textColor="@color/empty_text"
+		      android:text="@string/group_empty"/>	
+	</LinearLayout>
+      
+    <ImageView 
+       android:id="@+id/group_shadow"
+       android:background="@drawable/shadow_bg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    
+</RelativeLayout>

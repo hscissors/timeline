@@ -1,0 +1,130 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Timeline" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/app_bg</item>
+
+        <item name="android:actionBarStyle">@style/action_bar</item>
+        <item name="actionBarStyle">@style/action_bar</item>
+        
+    	<item name="android:actionMenuTextColor">@color/primary_accent</item>
+        <item name="actionMenuTextColor">@color/primary_accent</item>
+        
+        <item name="android:actionBarItemBackground">@drawable/ab_item_bg</item>
+        <item name="actionBarItemBackground">@drawable/ab_item_bg</item>
+        
+        <item name="android:actionModeBackground">@drawable/ab_primary_bg</item>
+        <item name="actionModeBackground">@drawable/ab_primary_bg</item>
+        
+		<item name="android:actionModeCloseButtonStyle">@style/action_mode_close_btn</item>
+		<item name="actionModeCloseButtonStyle">@style/action_mode_close_btn</item>
+		
+        <item name="windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="action_bar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="logo">@drawable/logo</item>
+        <item name="android:logo">@drawable/logo</item>
+
+        <item name="displayOptions">showHome|useLogo</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+        
+        <item name="background">@drawable/ab_primary_bg</item>
+        <item name="android:background">@drawable/ab_primary_bg</item>
+	</style>
+    
+    <style name="action_mode_close_btn" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
+    	<item name="android:visibility">gone</item>
+	</style>
+    
+    <style name="button">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    
+   <style name="button_cropped_top">
+        <item name="android:background">@drawable/btn_cropped_top_bg</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    
+    <style name="button_cropped_bottom">
+        <item name="android:background">@drawable/btn_cropped_bottom_bg</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    
+   <style name="button_cropped_right">
+        <item name="android:background">@drawable/btn_cropped_right_bg</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/primary_accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   <style name="button_cropped_left">
+        <item name="android:background">@drawable/btn_cropped_left_bg</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/primary_accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   <style name="button_cropped_middle">
+        <item name="android:background">@drawable/btn_cropped_middle_bg</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/primary_accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="text_button">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textColor">@color/primary_accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+   <style name="group_list_title" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+   <style name="event_subheader" parent="@android:style/Widget.TextView">
+       <item name="android:background">@drawable/secondary_bg</item>
+       <item name="android:textSize">16sp</item>
+       <item name="android:textColor">@color/secondary_text</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:padding">10dp</item>
+   </style>
+    
+   <style name="event_list_item_header" parent="@android:style/Widget.TextView">
+       <item name="android:background">@drawable/tertiary_bg</item>
+       <item name="android:textSize">14sp</item>
+       <item name="android:textColor">@color/tertiary_text</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:padding">10dp</item>
+   </style>
+    
+    <style name="event_list_date" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="event_list_title" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    
+   <style name="edit_textfield_cropped" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/txt_field_cropped_bg_shape</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    
+    <style name="edit_textfield" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/txt_field_bg_shape</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    
+    <style name="view_textfield" parent="@android:style/Widget.TextView">
+        <item name="android:background">@drawable/txt_field_bg_shape</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>

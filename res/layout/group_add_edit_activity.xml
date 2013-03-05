@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	 
+	    <LinearLayout 
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	    	android:layout_marginRight="20dp"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	        <ImageButton 
+	            android:id="@+id/swatch"
+	            style="@style/button"
+	            android:src="@drawable/swatch_icon"
+	            android:layout_width="45dp"
+	            android:layout_height="45dp"
+	            android:layout_marginRight="10dp"/>
+	
+	        <View
+	            android:id="@+id/swatchPreview"
+	            android:layout_width="fill_parent"
+	            android:layout_height="45dp"
+	            android:background="#ff0000" />
+	    </LinearLayout>
+	
+	    <EditText
+	        android:id="@+id/groupTitle"
+	        style="@style/edit_textfield"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="20dp"
+	    	android:layout_marginRight="20dp"
+	    	android:inputType="text"
+	        android:singleLine="true"
+	        android:hint="@string/group_default_title">
+	    </EditText>
+	
+	    <Button
+	        android:id="@+id/group_add_linked"
+	        android:gravity="center_horizontal"
+	        style="@style/text_button"
+	        android:drawableRight="@drawable/link_small_icon"
+	        android:drawablePadding="5dp"
+	        android:text="@string/group_edit_linked"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="10dp"
+	         />
+	
+	</LinearLayout>
+	
+	<ImageView 
+       android:id="@+id/group_shadow"
+       android:background="@drawable/shadow_bg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</RelativeLayout>

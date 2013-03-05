@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" 
+	    android:paddingBottom="10dp">
+	
+	    <com.soundsofpolaris.timeline.ui.Picker
+	        android:id="@+id/datepicker_month"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".25"
+	        android:paddingRight="5dp" /> 
+	
+	    <com.soundsofpolaris.timeline.ui.Picker
+	        android:id="@+id/datepicker_day"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".19"
+	        android:paddingRight="5dp" />
+	    
+	    <com.soundsofpolaris.timeline.ui.Picker
+	        android:id="@+id/datepicker_year"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".40"
+	        android:paddingRight="5dp" />
+	
+	    <com.soundsofpolaris.timeline.ui.Picker
+	        android:id="@+id/datepicker_era"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".16" />
+	
+	</LinearLayout>
+	<com.soundsofpolaris.timeline.ui.ToggleGroup
+	        android:id="@+id/datepicker_toggle_group"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center_horizontal"
+	        android:layout_marginBottom="10dp">
+		    <CheckBox
+	            android:id="@+id/check_all_month"
+	            style="@style/button_cropped_left"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:button="@null"
+	            android:text="@string/event_all_month"/>
+	        <CheckBox 
+	            android:id="@+id/check_all_year"
+	            style="@style/button_cropped_right"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:button="@null"
+	            android:text="@string/event_all_year"/>    
+	</com.soundsofpolaris.timeline.ui.ToggleGroup>
+</LinearLayout>
+	

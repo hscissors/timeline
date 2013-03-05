@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+   	
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+	   	<include layout="@layout/search"
+	   	    android:id="@+id/event_search"/>
+	   	
+	    <RelativeLayout
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+		    <TextView
+			    android:id="@+id/event_list_subheader"
+			    style="@style/event_subheader"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"/>
+		
+		    <com.soundsofpolaris.timeline.ui.AmazingListView
+		        android:layout_below="@id/event_list_subheader"
+		        android:id="@+id/event_list"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent" 
+		        android:scrollbars="none"/>
+		    
+		    <TextView android:id="@+id/event_list_empty"
+		        android:layout_below="@id/event_list_subheader"
+		        android:gravity="center"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:text="@string/event_empty"
+		        android:textColor="@color/empty_text"
+		        android:textSize="20sp"/>
+		    
+		    <ImageView 
+		       android:layout_below="@id/event_list_subheader"
+		       android:id="@+id/event_subheader_shadow"
+		       android:background="@drawable/shadow_bg"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"/>
+	    </RelativeLayout>
+	</LinearLayout>
+    
+    <ImageView 
+       android:id="@+id/event_shadow"
+       android:background="@drawable/shadow_bg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+</RelativeLayout>

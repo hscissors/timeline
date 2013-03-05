@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_link"
+        android:icon="@drawable/link_icon"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_link"/>
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/add_icon"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_add"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search_icon"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_search"/>
+</menu>

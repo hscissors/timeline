@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/picker_plus"
+        style="@style/button_cropped_top"
+        android:src="@drawable/plus_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/picker_value_field"
+        style="@style/edit_textfield_cropped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:inputType="text|textNoSuggestions">
+    </EditText>
+    
+    <ImageButton
+        android:id="@+id/picker_minus"
+        style="@style/button_cropped_bottom"
+        android:src="@drawable/minus_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

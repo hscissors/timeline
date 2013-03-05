@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_start_color">#48a2ce</color>
+    <color name="primary_end_color">#468bad</color>
+    <color name="primary_highlight">#61aace</color>
+    <color name="primary_accent">#efdcb3</color>
+    
+    <color name="secondary_start_color">#66b8e4</color>
+    <color name="secondary_end_color">#6bb3d8</color>
+    <color name="secondary_text">#665e5e</color>
+    
+    <color name="tertiary_start_color">#abd8f0</color>
+    <color name="tertiary_end_color">#aed5ea</color>
+    <color name="tertiary_text">#665e5e</color>
+    
+    <color name="search_color">#bdbdbd</color>
+    
+    <color name="empty_text">#bdbdbd</color>
+
+    <color name="list_divider">#e4e4e4</color>
+    <color name="list_bg">#f6f6f6</color>
+    <color name="list_highlight">#eeeeee</color>
+    <color name="list_left_bg">#bcc1c4</color>
+    
+    <color name="edit_text_stroke">#e4e4e4</color>
+    <color name="edit_text_bg_default">#f6f6f6</color>
+    
+    <color name="btn_stroke">#ababab</color>
+    <color name="btn_start_default">#48a2ce</color>
+    <color name="btn_end_default">#5297ba</color>
+    <color name="btn_pressed">#77bfe4</color>
+    <color name="btn_disabled">#9aaeb7</color>
+    <color name="btn_disabled_stroke">#c4c4c4</color>
+    
+    <color name="text_color">#2a2a2a</color>
+</resources>
